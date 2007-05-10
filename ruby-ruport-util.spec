@@ -1,5 +1,5 @@
-Summary:	Reporting system for Ruby
-Summary(pl.UTF-8):	System raportujący dla języka Ruby
+Summary:	A set of tools and helper libs for Ruby Reports
+Summary(pl.UTF-8):	Zestaw narzędzi i bibliotek pomocniczych dla systemu Ruby Reports
 Name:		ruby-ruport-util
 Version:	0.4.0
 Release:	1
@@ -16,14 +16,12 @@ Requires:	ruby-ruport >= 0.11.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Ruby Reports, a simple and extensible reporting system for Ruby. A
-lightweight toolset to help you develop your reporting applications
-and keep things DRY, Ruport can help.
+ruport-util provides a number of utilities and helper libs for Ruby
+Reports.
 
 %description -l pl.UTF-8
-Ruby Reports to prosty, rozszerzalny system raportujący dla języka
-Ruby. Zestaw lekkich narzędzi pomagających rozwijać aplikacje
-generujące raporty, zaprojektowany w myśl filozofii DRY.
+Ten pakiet udostępnia zestaw narzędzi i bibliotek pomocniczych dla
+systemu Ruby Reports.
 
 %prep
 %setup -q -c
