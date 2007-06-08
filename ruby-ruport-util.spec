@@ -1,12 +1,12 @@
 Summary:	A set of tools and helper libs for Ruby Reports
 Summary(pl.UTF-8):	Zestaw narzędzi i bibliotek pomocniczych dla systemu Ruby Reports
 Name:		ruby-ruport-util
-Version:	0.6.0
+Version:	0.7.0
 Release:	1
 License:	Ruby's
 Group:		Development/Languages
 Source0:	http://gems.rubyforge.org/gems/ruport-util-%{version}.gem
-# Source0-md5:	e462a3634370aa8e4db514651e365f24
+# Source0-md5:	9ae6d8ac0a2270276e0240bbbf86110a
 URL:		http://code.rubyreports.org/
 BuildRequires:	rake
 BuildRequires:	rpmbuild(macros) >= 1.277
@@ -54,5 +54,6 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc rdoc
 %attr(755,root,root) %{_bindir}/rope
+%attr(755,root,root) %{_bindir}/csv2ods
 %{ruby_rubylibdir}/ruport/util
 %{ruby_rubylibdir}/ruport/util.rb
